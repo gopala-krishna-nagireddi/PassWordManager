@@ -1,0 +1,206 @@
+body {
+  font-family: 'Roboto';
+}
+
+.app-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  padding: 30px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding: 40px 10%;
+  }
+}
+
+.app-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  background-color: #5763a5;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 30px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.output-container {
+  background-color: #5763a5;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 30px;
+  min-height: 500px;
+}
+
+.input-container-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-form-container {
+  background-color: #454f84;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px;
+  }
+
+  .input-container-img {
+    order: 2;
+    width: 40%;
+    margin-left: 30px;
+  }
+  .input-form-container {
+    order: 1;
+    width: 40%;
+  }
+}
+
+.input-form-container > h1 {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.input-div {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-div {
+    margin-bottom: 50px;
+  }
+}
+
+.input-logo {
+  width: 25px;
+  margin: 15px;
+}
+
+.input {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.add-btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-btn {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.count-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.passwords-count-text {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  margin-right: 30px;
+  width: 50%;
+}
+
+.passwords-count {
+  color: #ffffff;
+  font-size: 14px;
+  border: 1px solid #b6c3ca;
+  padding: 0 10px;
+  border-radius: 25px;
+  margin-left: 10px;
+}
+
+.search-input-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  background-color: #ffffff;
+}
+
+.search-img {
+  width: 25px;
+  margin: 2px 10px;
+}
+
+.search-input {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.show-password-label {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+  justify-self: flex-end;
+}
+
+.passwords-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.no-passwords-img {
+  width: 100%;
+}
+
+.no-password {
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .output-container {
+    padding: 30px 10%;
+  }
+
+  .passwords-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.display-count {
+  display: flex;
+  align-items: center;
+}

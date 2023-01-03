@@ -1,0 +1,67 @@
+.password-item-container {
+  border: 1px solid #b6c3ca;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .password-item-container {
+    width: 32%;
+    margin: 5px;
+  }
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.site-initial {
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: lightblue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.site-name {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.user-name {
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.password {
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.stars {
+  width: 130px;
+  height: 20px;
+}
+
+.delete-btn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.delete-img {
+  width: 35px;
+}
